@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envelope</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Anchal,</strong>
+                        <p>
+                            Happy 9 months, my love. Amidst life's unpredictable challenges, I want you to feel my unwavering support. I see the struggles you face, and I am here, steadfast, ready to stand by you through thick and thin. No matter what comes our way, my love for you remains a constant, a source of strength to weather any storm.
+                            Love you forever..
+                            Take care,
+                            <br>
+                            ~Your Love ❤
+                            <br>
+                            ~Vivek 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
